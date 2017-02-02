@@ -1,0 +1,18 @@
+title: GROOVE
+email: groove4dancers@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  The saddest moment for a dancer is when their dance moves aren’t recognized.
+  GROOVE can Pump up the crowd and Enhance their expression.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: GROOVE
+github_username:  GROOVE
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

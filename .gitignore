@@ -1,5 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
 # Ignore bundler config.
 /.bundle
-
 # Ignore bundler gems.
 vendor/bundle

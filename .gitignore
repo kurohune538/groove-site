@@ -1,4 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
-KNOWLEDGE.md
+# Ignore bundler config.
+/.bundle
+# Ignore bundler gems.
+vendor/bundle

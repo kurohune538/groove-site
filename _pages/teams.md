@@ -1,6 +1,6 @@
 ---
-layout: post-list
+layout: team-list
 title: Teams
-description: "List of posts"
+description: "List of teams"
 permalink: /teams.html
 ---

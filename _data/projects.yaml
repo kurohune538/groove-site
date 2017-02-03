@@ -1,29 +1,34 @@
-- title: GROOVE
-  url: http://taylantatli.me/Halve
+- title:
+  url:
   image: images/groove_logo.png
   completed: false
 
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: images/GROOVE_PVver1.MOV
+- title: Product
+  url: /
+  image: images/rev3.jpg
   completed: true
 
-- title: Ramme Jekyll Theme
+- title: Bord
+  url: /
+  image: images/flexi.jpg
+  completed: true
+
+- title: LED
   url: http://taylantatli.me/Ramme
-  image: images/groove_logo.png
+  image: images/led.png
   completed: true
 
-- title: Daisy Pelican Theme
-  url: http://taylantatli.me/Daisy-Pelican-Theme/
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
-
-- title: Block Icon Theme
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
-  completed: false
-
-- title: Start Page
+- title: Develop
   url: http://taylantatli.me/StartPage/
-  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
+  image: images/dev.jpg
   completed: false
+
+- title: Hentai
+  url: https://github.com/TaylanTatli/Block-Icon-Theme
+  image: images/hentai.jpg
+  completed: false
+
+- title: Desktop App
+  url:
+  image: images/gene.png
+  completed: true

@@ -6,11 +6,11 @@
       {% capture image %}{{ site.url }}/{{ image }}{% endcapture %}
       {% endunless %}
       <li style="background:url({{ image }}) center center no-repeat;">
-        <a href="{{ item.url }}" {% unless item.completed %}class="inactive"{% endunless %} target="_blank" rel="nofollow external">
+        <a {% unless item.completed %}class="inactive"{% endunless %} target="_blank" rel="nofollow external">
           <span>
             {{ item.title }}
             {% unless item.completed %}
-            <br><em>in progress</em>
+            <br><em>Work In Progress</em>
             {% endunless %}
           </span>
         </a>

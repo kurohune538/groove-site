@@ -1,25 +1,36 @@
-# Halve  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
-  
-## `Sorry guys but there will be no update until I buy a new laptop.`
+GROOVE website
+====
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+GROOVEのLP
 
-To learn how to install and use this theme check out the [installation guide](https://taylantatli.github.io/Halve/halve-theme/) for more information.
+## 機能
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+Team紹介
 
-## Preview   
-![screenshot of Halve](/images/halve-home-image.png)
+プロダクト紹介
 
-See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.
+## 使い方
 
-# Credits
-- Original Work: [Vangelis Tzortzis](https://github.com/srekoble)  
-- Sample Posts and some code examples: [Michael Rose](https://github.com/mmistakes/)
-- Images: [Unsplash](https://unsplash.com/) and [Lorem Pixel](http://lorempixel.com)
+[GROOVE](https://kurohune538.github.io/groove-site/)にアクセスすると見れる.
 
-### Others
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
+ローカルで動かす場合は,
+
+Ruby
+```
+$ rbenv version                        
+2.2.3
+```
+
+Gemのインストール
+```
+bundle install
+```
+
+ローカルで動かす
+```
+bundle exec jekyll serve --watch --baseurl ''       
+```
+
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)

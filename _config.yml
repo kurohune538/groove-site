@@ -2,7 +2,7 @@
 title: GROOVE
 description: Give Freedom to Dancers
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://kurohune538.github.io/groove-site/" # the base hostname & protocol for your site
 logo: logo.svg                     # Site logo
 locale: en_US
 

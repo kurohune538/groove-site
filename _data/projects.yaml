@@ -4,27 +4,27 @@
   completed: true
 
 - title: Product
-  url: /
+  url:
   image: images/rev3.jpg
   completed: true
 
 - title: Bord
-  url: /
+  url:
   image: images/flexi.jpg
   completed: true
 
 - title: LED
-  url: http://taylantatli.me/Ramme
+  url:
   image: images/led.png
   completed: true
 
 - title: Develop
-  url: http://taylantatli.me/StartPage/
+  url:
   image: images/dev.jpg
   completed: true
 
 - title: Hentai
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
+  url: 
   image: images/hentai.jpg
   completed: true
 

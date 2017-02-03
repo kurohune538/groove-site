@@ -1,7 +1,7 @@
 - title:
   url:
   image: images/groove_logo.png
-  completed: false
+  completed: true
 
 - title: Product
   url: /
@@ -21,14 +21,19 @@
 - title: Develop
   url: http://taylantatli.me/StartPage/
   image: images/dev.jpg
-  completed: false
+  completed: true
 
 - title: Hentai
   url: https://github.com/TaylanTatli/Block-Icon-Theme
   image: images/hentai.jpg
-  completed: false
+  completed: true
 
 - title: Desktop App
   url:
   image: images/gene.png
   completed: true
+
+- title: Mobile App
+  url:
+  image:
+  completed: false

@@ -1,0 +1,111 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+  <body id="posts">
+
+    <div class="block-left">
+      <div class="content">
+        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo | replace: '.', '-small.' }}"></a>
+        <h1 class="section-title">{{ page.title}}<em>/</em>
+        </h1>
+      </div>
+    </div>
+
+    <div class="block-right">
+      <a href="posts.html" title="posts" class="posts-menu-icon"></a>
+      <a title="projects" class="projects-menu-icon">
+        <span></span>
+      </a>
+      <div class="content">
+        <ul class="posts-list">
+          <li>
+            <h2>
+                <span>Komiyan</span>
+              </a>
+            </h2>
+            <p>なにか一言</p>
+            <ul class="tags">
+              <li>Producer</li>
+              <li>Designer</li>
+              <li>iOS</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="posts-list">
+          <li>
+            <h2>
+                <span>Hori Hori</span>
+              </a>
+            </h2>
+            <p>なにか一言</p>
+            <ul class="tags">
+              <li>Hardware</li>
+              <li>Electronics</li>
+              <li>Mechanics</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="posts-list">
+          <li>
+            <h2>
+                <span>Shinchan</span>
+              </a>
+            </h2>
+            <p>なにか一言</p>
+            <ul class="tags">
+              <li>ML</li>
+              <li>DNN</li>
+              <li>Hardware</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="posts-list">
+          <li>
+            <h2>
+                <span>Chris</span>
+              </a>
+            </h2>
+            <p>なにか一言</p>
+            <ul class="tags">
+              <li>Hardware</li>
+              <li>Business</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="posts-list">
+          <li>
+            <h2>
+                <span>Ojisan</span>
+              </a>
+            </h2>
+            <p>なにか一言</p>
+            <ul class="tags">
+              <li>Web</li>
+              <li>Open Frameworks</li>
+              <li>Media Art</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="posts-list">
+          <li>
+            <h2>
+                <span>Tsuruyan</span>
+              </a>
+            </h2>
+            <p>なにか一言</p>
+            <ul class="tags">
+              <li>iOS</li>
+              <li>Media Art</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% include overlay.html %}
+    {% include scripts.html %}
+  </body>
+</html>

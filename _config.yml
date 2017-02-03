@@ -1,7 +1,8 @@
 # Site
 title: GROOVE
 description: Give Freedom to Dancers
-url: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 logo: logo.svg                     # Site logo
 locale: en_US
 

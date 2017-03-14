@@ -23,9 +23,9 @@
   image: images/dev.jpg
   completed: true
 
-- title: Hentai
-  url: 
-  image: images/hentai.jpg
+- title: Sensor
+  url:
+  image: images/sensor.jpg
   completed: true
 
 - title: Desktop App

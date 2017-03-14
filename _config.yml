@@ -2,14 +2,15 @@
 title: GROOVE
 description: Give Freedom to Dancers
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kurohune538.github.io/groove-site" # the base hostname & protocol for your site
+# url: "http://127.0.0.1:4000"
+url: "https://kurohune538.github.io/groove-site" 
 logo: GrooveLogo3D_transparent.png                  # Site logo
 locale: en_US
 
 # Left Block Images
 background:
-  homepage: images/hentai.jpg                         # this image will be shown on homepage's left block
-  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
+  homepage: images/hentai.jpg                        # this image will be shown on homepage's left block
+  post-list: images/member_photo.jpg             # this image will be shown on post list page
   default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
@@ -38,14 +39,14 @@ facebook:           groove
 # stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-youtube:           username
+#youtube:           username
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
@@ -53,7 +54,7 @@ youtube:           username
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           groove
+#behance:           groove
 
 # Gems
 gems:

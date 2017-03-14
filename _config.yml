@@ -3,7 +3,7 @@ title: GROOVE
 description: Give Freedom to Dancers
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://127.0.0.1:4000"
-url: "https://kurohune538.github.io/groove-site" 
+url: "https://kurohune538.github.io/groove-site"
 logo: GrooveLogo3D_transparent.png                  # Site logo
 locale: en_US
 
@@ -33,8 +33,8 @@ sass:
 # Social Links
 email:             groove4dancers@gmail.com
 #google.plus:        username
-twitter:            groove
-facebook:           groove
+# twitter:            groove
+facebook:           GROOVE-1877906399094173
 # github:             username
 # stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username

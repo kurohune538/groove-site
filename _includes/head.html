@@ -11,7 +11,7 @@
 <!-- Facebook用設定 -->
 <meta property="fb:app_id" content="179091232598104" />
 <!-- ※Twitter共通設定 -->
-<meta name="twitter:card" content="photo" /> 
+<meta name="twitter:card" content="photo" />
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +45,8 @@
   {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}">
+  <!-- <meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}"> -->
+  <meta property="og:image" content="{{ site.url }}/images/ogp.png">
 
   <!-- Facebook用設定 -->
   <meta property="fb:app_id" content="179091232598104" />

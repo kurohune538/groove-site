@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background: #111;
+  line-height: 30px; }
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 30px; }
+  header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: fixed; }
+    header ul li {
+      margin: 20px; }
+      header ul li a {
+        color: #fff;
+        font-size: 20px; }
+
+main {
+  text-align: center; }
+  main section {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    main section h1 {
+      padding-bottom: 20px;
+      font-size: 30px;
+      font-weight: bold;
+      color: #54D3E8; }
+    main section h2 {
+      font-size: 25px;
+      font-weight: bold;
+      padding-bottom: 15px;
+      color: #92F0FF; }
+    main section h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #92F0FF;
+      padding-top: 20px; }
+    main section p {
+      font-size: 17px;
+      padding-bottom: 15px; }
+  main .top {
+    background: #111;
+    height: 100vh; }
+    main .top h1 {
+      width: 100%; }
+      main .top h1 img {
+        width: 100%; }
+    main .top p {
+      font-size: 2rem; }
+    main .top .title-wrapper {
+      padding-top: 40vh;
+      margin: 0 auto; }
+  main .news a {
+    color: #92F0FF; }
+  main .news .news-bg {
+    background: #333;
+    padding: 20px;
+    text-align: left;
+    max-height: 200px;
+    overflow: scroll; }
+    main .news .news-bg li {
+      padding: 10px; }
+      main .news .news-bg li span {
+        padding-right: 50px; }
+  main .general .bold {
+    font-weight: bold;
+    font-size: 20px; }
+  main .general .video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; }
+    main .general .video iframe {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100% !important;
+      height: 100% !important; }
+  main .vision p {
+    text-align: center; }
+    main .vision p span {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 70px; }
+  main .functions .function-detail {
+    text-align: left;
+    padding-top: 20px; }
+  main .functions .app,
+  main .functions .sensors,
+  main .functions .leds {
+    padding: 40px 0; }
+    main .functions .app img,
+    main .functions .sensors img,
+    main .functions .leds img {
+      width: 100%; }
+  main .contact .email p {
+    font-size: 20px; }
+  main .contact .sns {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    main .contact .sns .sns-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    main .contact .sns .facebook,
+    main .contact .sns .twitter,
+    main .contact .sns .instagram {
+      margin: 10px;
+      width: 60px; }
+    main .contact .sns img {
+      width: 100%; }

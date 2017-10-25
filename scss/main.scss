@@ -127,6 +127,19 @@ main {
     }
   }
 
+  .members {
+    .member {
+      margin-bottom: 30px;
+      img {
+        width: 100%;
+      }
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 20px;
+      }
+    }
+  }
   .functions {
     .function-detail {
       text-align: left;

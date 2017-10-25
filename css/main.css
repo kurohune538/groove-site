@@ -94,6 +94,14 @@ main {
       font-weight: bold;
       font-size: 20px;
       line-height: 70px; }
+  main .members .member {
+    margin-bottom: 30px; }
+    main .members .member img {
+      width: 100%; }
+    main .members .member span {
+      display: block;
+      margin-top: 5px;
+      font-size: 20px; }
   main .functions .function-detail {
     text-align: left;
     padding-top: 20px; }

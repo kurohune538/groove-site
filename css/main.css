@@ -30,6 +30,8 @@ header {
 
 main {
   text-align: center; }
+  main .container-fluid {
+    padding: 0; }
   main section {
     padding-top: 50px;
     padding-bottom: 50px; }
@@ -52,8 +54,10 @@ main {
       font-size: 17px;
       padding-bottom: 15px; }
   main .top {
-    background: #111;
-    height: 100vh; }
+    background: url("../img/bg3.png") center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0; }
     main .top h1 {
       width: 100%; }
       main .top h1 img {

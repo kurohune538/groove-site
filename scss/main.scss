@@ -33,6 +33,10 @@ header {
 
 main {
   text-align: center;
+  .container-fluid {
+    padding: 0;
+
+  }
   section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -63,8 +67,12 @@ main {
     }
   }
   .top {
-    background: #111;
+    background: url("../img/bg3.png") center center;
+    background-size: cover;
+
     height: 100vh;
+    padding: 0;
+
     h1 {
       width: 100%;
       img {

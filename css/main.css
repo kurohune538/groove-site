@@ -67,18 +67,20 @@ main {
     main .top .title-wrapper {
       padding-top: 40vh;
       margin: 0 auto; }
-  main .news a {
-    color: #92F0FF; }
   main .news .news-bg {
     background: #333;
+    border-collapse: unset;
     padding: 20px;
     text-align: left;
     max-height: 200px;
     overflow: scroll; }
-    main .news .news-bg li {
-      padding: 10px; }
-      main .news .news-bg li span {
-        padding-right: 50px; }
+    main .news .news-bg a {
+      color: #92F0FF; }
+    main .news .news-bg th {
+      padding: 0 10px 10px 0;
+      vertical-align: top; }
+    main .news .news-bg td {
+      vertical-align: top; }
   main .general .bold {
     font-weight: bold;
     font-size: 20px; }

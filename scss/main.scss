@@ -88,20 +88,23 @@ main {
     }
   }
   .news {
-    a {
-      color: #92F0FF;
-    }
+    
     .news-bg {
       background: #333;
+      border-collapse: unset;
       padding: 20px;
       text-align: left;
       max-height: 200px;
       overflow: scroll;
-      li {
-        padding: 10px;
-        span {
-          padding-right: 50px;
-        }
+      a {
+        color: #92F0FF;
+      }
+      th {
+        padding: 0 10px 10px 0;
+        vertical-align: top;
+      }
+      td {
+        vertical-align: top;
       }
     }
   }

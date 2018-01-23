@@ -75,7 +75,9 @@ main {
     max-height: 200px;
     overflow: scroll; }
     main .news .news-bg a {
-      color: #92F0FF; }
+      color: #92F0FF;
+      display: block;
+      width: 100%; }
     main .news .news-bg th {
       padding: 0 10px 10px 0;
       vertical-align: top; }
